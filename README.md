@@ -8,7 +8,7 @@ We apply **kernelized probabilistic matrix factorization** (KPMF) to model the r
 
 We construct two covariance matrices — one for users and one for artists — a priori using side information provided by the dataset, and incorporate them into the generative process. 
 
-- To construct the user covariance matrix, we leverage the social network graph provided and apply the *Commute Time (CT) graph kernel*, which embeds nodes (users) in an inner product space.
+- To construct the user covariance matrix, we leverage the social network graph provided and apply the *Commute Time (CT) graph kernel*, which embeds nodes (users) as vectors.
 - To construct the artist covariance matrix, we embed each artist with a vector that stores tags assigned to that artist by users, and then apply the *Radial Basis Function (RBF) kernel* on two artists' embeddings to obtain their covariance.
 
 We learn the latent vectors via **MAP inference**. The CT kernel and RBF kernel both yield slightly lower RMSEs than PMF, but combining the two is minimally helpful.
