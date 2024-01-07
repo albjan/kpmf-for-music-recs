@@ -1,6 +1,6 @@
 # Probabilistic Models (STCS 6701) Final Project
 
-## Kernelizing Probabilistic Matrix Factorization to Enhance Probabilistic Matrix Factorization
+## Kernelizing Probabilistic Matrix Factorization to Enhance Music Recommendation
 
 ### Abstract
 
