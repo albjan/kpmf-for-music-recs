@@ -1,6 +1,6 @@
 # Probabilistic Models (STCS 6701) Final Project
 
-## Title: Kernelizing Probabilistic Matrix Factorization to Enhance Probabilistic Matrix Factorization
+## Kernelizing Probabilistic Matrix Factorization to Enhance Probabilistic Matrix Factorization
 
 ### Abstract
 
