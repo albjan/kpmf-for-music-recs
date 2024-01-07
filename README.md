@@ -4,7 +4,7 @@
 
 ### Abstract
 
-I apply **kernelized probabilistic matrix factorization** (KPMF) to model the rating a user assigns a music artist in the `hetrec2011-lastfm-2k` dataset. KPMF introduces complexity to probabilistic matrix factorization (PMF) by capturing covariances between the latent vectors learned, rather than assuming they are i.i.d. 
+We apply **kernelized probabilistic matrix factorization** (KPMF) to model the rating a user assigns a music artist in the `hetrec2011-lastfm-2k` dataset. KPMF introduces complexity to probabilistic matrix factorization (PMF) by capturing covariances between the latent vectors learned, rather than assuming they are i.i.d. 
 
 We construct two covariance matrices — one for users and one for artists — a priori using side information provided by the dataset, and incorporate them into the generative process. 
 
